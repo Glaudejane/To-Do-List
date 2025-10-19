@@ -54,3 +54,47 @@ input[type="checkbox"] {
     flex: 1;
     padding: 10px 10px;
 }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.redes-sociais a img {
+  width: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+.redes-sociais a img:hover {
+  transform: scale(1.1);
+}
+.redes-sociais {
+  margin-top: 10px;
+}
+.redes-sociais p {
+  margin: 0;
+  font-size: 14px;
+}
+.redes-sociais a {
+    color: #fff;
+    text-decoration: none;
+}
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais i {
+  font-size: 30px;
+  color: #fff;
+  margin: 0 15px;
+  transition: 0.3s;
+}
+
+.redes-sociais i:hover {
+  color: #25D366; /* verde do WhatsApp */
+  transform: scale(1.3);
+}
+
+
+
