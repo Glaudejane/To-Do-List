@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>To do list</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="todo">
+            <input type="text" name="task" placeholder="Adicione uma tarefa" />
+            <button type="submit">+</button>
+        </form>
+        <ol id="lista">
+            <li>
+                <input type="checkbox" onclick="marcarComoConcluida(this)" />
+                <span>Task 1</span>
+            </li>
+            <li>
+                <input type="checkbox" onclick="marcarComoConcluida(this)" />
+                <span>Task 2</span>
+            </li>
+            <li>
+                <input type="checkbox" onclick="marcarComoConcluida(this)" />
+                <span>Task 3</span>
+            </li>
+        </ol>
+
+    </div>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>

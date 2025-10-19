@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #080808;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #ffa500;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #eae2e2;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+#lista li:nth-of-type(odd) {
+    background-color: #d3d3d3;
+}
+#lista li:nth-of-type(even) {
+    background-color: #ffffff;
+}
+#lista li {
+    flex: 1;
+    padding: 10px 10px;
+}
